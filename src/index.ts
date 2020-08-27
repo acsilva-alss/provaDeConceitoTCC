@@ -1,4 +1,3 @@
-import express from "express";
 import { Server } from "./server";
 //import path from "path";
 import 'dotenv/config'
