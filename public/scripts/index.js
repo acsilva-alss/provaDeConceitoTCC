@@ -63,7 +63,7 @@ function updateUserList(socketIds) {
   });
 }
 
-const socket = io.connect("https://prova-conceito-tcc.herokuapp.com/");
+const socket = io.connect("localhost:5000");
 
 socket.on("update-user-list", ({ users }) => {
   updateUserList(users);
